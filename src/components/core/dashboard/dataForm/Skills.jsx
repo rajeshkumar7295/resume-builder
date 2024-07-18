@@ -22,7 +22,7 @@ const Skills = ({ setStep }) => {
   };
 
   return (
-    <div className="border p-12 w-8/12 mx-auto bg-white rounded-md shadow-lg">
+    <div className="border p-12  bg-white rounded-md shadow-lg">
       <h2 className="text-2xl font-semibold">Skills</h2>
       <hr className="my-4" />
 
@@ -38,7 +38,7 @@ const Skills = ({ setStep }) => {
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div className="flex gap-16 mt-6">
+        <div className="flex md:flex-wrap gap-16 mt-6">
           <div className="flex flex-col gap-1">
             <label className="font-semibold">Skill Name</label>
             <input
